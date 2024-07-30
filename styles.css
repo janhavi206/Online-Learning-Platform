@@ -1,0 +1,280 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(238, 238, 238); /* Light gray background */
+    background-image: url(images/body.jpg);
+    color: rgb(32, 30, 67); /* Dark blue text */
+}
+
+header {
+    background-color: rgb(32, 30, 67); /* Dark blue header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', serif; /* Stylish font for header */
+}
+
+nav {
+    text-align: center; /* Center-align the nav links */
+    margin-top: 15px; /* Margin above the nav links */
+}
+
+header nav a {
+    display: inline-block; /* Display links inline */
+    color: #ecf0f1; /* Light grey text */
+    text-align: center; /* Center-align text */
+    padding: 10px 15px; /* Padding for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size for the links */
+    font-family: 'Roboto', sans-serif; /* Font style for the links */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    margin: 0 10px; /* Space between links */
+    border-radius: 4px;
+}
+
+header nav a:hover {
+    background-color: #34495e; /* Slightly darker background on hover */
+    color: #ffffff; /* White text on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    transform: translateY(-2px); 
+}
+
+nav a.active {
+    background-color: #e74c3c; /* Red background for active link */
+    color: white; /* White text */
+    border-radius: 4px; /* Rounded corners for active link */
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+button {
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+    text-align: center;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(32, 30, 67);
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    
+    font-family: 'Lora', serif; /* Stylish font for hero section */
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(80, 140, 155); /* Light blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif; /* Button text font */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.features img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.feature {
+    background-color: rgb(142, 172, 205);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    margin: 2px;
+    font-family: 'Roboto', sans-serif; /* Font for feature text */
+}
+
+.feature h3 {
+    margin-top: 0;
+    color: rgb(19, 75, 112); /* Medium blue headings */
+    font-family: 'Lora', serif; /* Font for feature headings */
+}
+
+.testimonials {
+    background-color: #f5f5f5; /* Light grey background */
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Font for testimonial text */
+}
+
+.testimonials blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #333;
+}
+
+.blog {
+    background-color: #fff; /* White background */
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.blog article {
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif; /* Font for blog articles */
+}
+
+.blog article h3 {
+    margin: 0;
+    color: rgb(19, 75, 112); /* Medium blue headings */
+}
+
+.blog article h3 a {
+    text-decoration: none;
+    color: rgb(19, 75, 112); /* Medium blue headings */
+    transition: color 0.3s ease;
+}
+
+.blog article h3 a:hover {
+    color: #e74c3c; /* Red on hover */
+}
+
+.newsletter {
+    background-color: rgb(142, 172, 205);
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif; /* Font for newsletter */
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: rgb(80, 140, 155); /* Light blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1{
+    font-family: "Aguafina Script";
+}
+
+.course {
+    background-color: white;
+    background-image: url(/images/texture-16.jpg);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    font-family: 'Roboto', sans-serif; /* Font for course text */
+}
+
+.course h3 {
+    margin-top: 0;
+    color: rgb(19, 75, 112); /* Medium blue headings */
+    font-family: 'Lora', serif; /* Font for course headings */
+}
+
+.course button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: rgb(80, 140, 155); /* Light blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif; /* Button text font */
+}
+
+.course-detail {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif; /* Font for course details text */
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.note {
+    background-color: rgb(142, 172, 205);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 30%;
+}
+
+.note img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.note p {
+    margin: 0;
+    color: rgb(32, 30, 67); /* Dark blue text */
+    font-weight: bold;
+    font-family: 'Lora', serif; /* Font for note text */
+}
+
+footer {
+    background-color: rgb(32, 30, 67); /* Dark blue footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Roboto', sans-serif; /* Font for footer text */
+}
