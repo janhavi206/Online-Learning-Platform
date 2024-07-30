@@ -6,7 +6,7 @@ html, body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(238, 238, 238); /* Light gray background */
-    background-image: url(images/body.jpg);
+    background-image: url(body.jpg);
     color: rgb(32, 30, 67); /* Dark blue text */
 }
 
@@ -205,7 +205,7 @@ header h1{
 
 .course {
     background-color: white;
-    background-image: url(/images/texture-16.jpg);
+    background-image: url(texture-16.jpg);
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 5px;
