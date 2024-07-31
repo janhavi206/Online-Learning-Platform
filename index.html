@@ -49,11 +49,11 @@
             <h2>Testimonials</h2>
             <blockquote>
                 <p>"This platform transformed my career! The courses are well-structured and engaging."</p>
-                <cite>- Jane Doe, Software Engineer</cite>
+                <cite>- Yash Goyal, Software Engineer</cite>
             </blockquote>
             <blockquote>
                 <p>"A fantastic learning experience with practical insights and real-world applications."</p>
-                <cite>- John Smith, Data Scientist</cite>
+                <cite>- Lalit Deshmukh, Data Scientist</cite>
             </blockquote>
         </section>
 
@@ -72,14 +72,21 @@
         <section class="newsletter">
             <h2>Stay Updated</h2>
             <p>Subscribe to our newsletter for the latest courses and updates.</p>
-            <form action="subscribe.html" method="post">
-                <input type="email" name="email" placeholder="Enter your email">
+            <form action="#" method="post" onsubmit="event.preventDefault(); validateEmail();">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
                 <button type="submit">Subscribe</button>
             </form>
         </section>
     </main>
 
     <footer>
+        <p>	  Designed and Developed by Janhavi More. &#9829;</p>
+        
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
+
         <p>&copy; 2024 Online Learning Platform. All rights reserved.</p>
         
     </footer>
