@@ -213,6 +213,9 @@ header h1{
     width: 80%;
     font-family: 'Roboto', sans-serif; /* Font for course text */
 }
+.course-detail{
+    background-image: url(texture-16.jpg);
+}
 
 .course h3 {
     margin-top: 0;
@@ -220,6 +223,15 @@ header h1{
     font-family: 'Lora', serif; /* Font for course headings */
 }
 
+.course-btn{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: rgb(80, 140, 155); /* Light blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
 .course button {
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -239,6 +251,101 @@ header h1{
     margin: 0 auto;
     font-family: 'Roboto', sans-serif; /* Font for course details text */
 }
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.participants {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.participants h2 {
+    font-size: 2rem;
+    color: rgb(19, 75, 112); /* Medium blue heading */
+    font-family: 'Lora', serif; /* Font for participants heading */
+}
+
+.participants table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.participants th, .participants td {
+    border: 1px solid rgb(80, 140, 155); /* Light blue borders */
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.participants th {
+    background-color: rgb(32, 30, 67); /* Dark blue header cells */
+    color: white;
+}
+
+.participants td {
+    background-color: white;
+    color: rgb(32, 30, 67); /* Dark blue text in table cells */
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: rgb(19, 75, 112); /* Medium blue heading */
+    font-family: 'Lora', serif; /* Font for about heading */
+}
+
+.about p {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif; /* Font for about text */
+}
+
+.instructors {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.instructor {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.instructor:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.instructor img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.instructor h3 {
+    margin: 0;
+    color: rgb(19, 75, 112); /* Medium blue headings */
+    font-family: 'Lora', serif; /* Font for instructor names */
+}
+
+.instructor p {
+    color: rgb(32, 30, 67); /* Dark blue text */
+    font-family: 'Roboto', sans-serif; /* Font for instructor bio */
+}
+
 
 .notes {
     display: flex;
